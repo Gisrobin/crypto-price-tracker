@@ -52,7 +52,7 @@ function App() {
           color: theme === 'light' ? '#000' : '#fff' }}
         className={`theme-toggle ${theme}`}
         onClick={toggleTheme}
-        title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+        title={theme === 'light' ? ' dark mode' : ' light mode'}
       >
         {theme === 'light' ? '🌙' : '☀️'}
       </button>
